@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="20dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10sp"
+        >
+
+        <TextView
+            android:id="@+id/itemLT_namaBis"
+            android:text="Nama Bis"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/itemLT_fasilitasBis"
+            android:text="Fasilitas Bis"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/itemLT_namaBis"
+            app:layout_constraintStart_toStartOf="@id/itemLT_namaBis"
+            />
+
+        <TextView
+            android:id="@+id/itemLT_jlmWaktuBis"
+            android:text="00 hrs"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/ungu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/itemLT_fasilitasBis"
+            app:layout_constraintStart_toStartOf="@id/itemLT_fasilitasBis"
+            />
+
+        <TextView
+            android:id="@+id/itemLT_departure"
+            android:text="07.00 ---- 16.00 WIB"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/itemLT_jlmWaktuBis"
+            app:layout_constraintStart_toStartOf="@id/itemLT_jlmWaktuBis"
+            />
+
+        <TextView
+            android:id="@+id/itemLT_hargaBis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:text="RP. 000K"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/itemLT_departure"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/itemLT_img1Bis"
+            android:src="@drawable/armchair"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@id/itemLT_hargaBis"
+            app:layout_constraintBottom_toTopOf="@id/itemLT_jlmWaktuBis"
+            />
+
+        /
+
+        <TextView
+            android:id="@+id/number_seat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/itemLT_img1Bis"
+            app:layout_constraintEnd_toEndOf="@+id/itemLT_img1Bis"
+            app:layout_constraintTop_toTopOf="@+id/itemLT_img1Bis" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/single_bed"
+            app:layout_constraintBottom_toTopOf="@id/itemLT_jlmWaktuBis"
+            app:layout_constraintStart_toEndOf="@id/itemLT_img1Bis" />
+
+        <TextView
+            android:id="@+id/number_bed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/imageView2"
+            app:layout_constraintEnd_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

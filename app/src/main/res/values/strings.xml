@@ -1,0 +1,36 @@
+<resources>
+    <string name="base_url">https://hacktiv8-finalproject-default-rtdb.asia-southeast1.firebasedatabase.app/</string>
+    <string name="app_name">Travelling</string>
+    <string name="penjelassan">BUSSMOB is an innovative solution in the transportation industry that allows passengers to book bus tickets easily and efficiently via a mobile application.</string>
+    <string name="welcomeText2">Bux is a online booking service for Bus transportation. login now to user Bux services.</string>
+    <string name="register1Text2">Fill your phone number below, so we can easily catch you up.</string>
+    <string name="register2Text2">You are all set and ready to use Bux. Enjoy our service!</string>
+    <string name="loginText2">Enter your email and password correctly to login to Bux</string>
+    <string name="welcome_"> Welcome! </string>
+
+    <string name="bux_is_a_on">
+        Bux is a online booking service for Bus transportation. login now to user Bux services.
+    </string>
+    <!-- ......................................................... -->
+    <string name="dropdown_NamaTerminal">Sektor Usaha</string>
+    <string name="default_web_client_id">912419490581-3864noj80pj194c0q25on2i9s29oak4a.apps.googleusercontent.com</string>
+    <string-array name="NamaTerminal_array">
+        <item>Pilih</item>
+        <item>Jakarta</item>
+        <item>Surabaya</item>
+        <item>Medan</item>
+        <item>Purwokerto</item>
+        <item>Bandung</item>
+        <item>Malang</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- ......................................................... -->
+    <string-array name="number_array">
+        <item>+62</item>
+        <item>+1</item>
+        <item>+86</item>
+        <item>+63</item>
+        <item>+86</item>
+    </string-array>
+</resources>
